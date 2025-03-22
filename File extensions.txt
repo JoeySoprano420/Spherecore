@@ -1,0 +1,38 @@
+Here are the file extensions for Spherecore, categorized by their function in the compilation pipeline:
+
+⸻
+
+Spherecore File Extensions:
+	1.	Source Code Files:
+	•	.sphe: Spherecore source code file
+Example: main.sphe
+	•	Contains Spherecore syntax (loops, conditionals, functions, etc.).
+	•	This is the primary file type where users write their Spherecore programs.
+	2.	Abstract Syntax Tree (AST) Files:
+	•	.sphe-ast: Abstract Syntax Tree (AST) dump in hexadecimal format
+Example: main.sphe-ast
+	•	Stores the parsed, structured version of the Spherecore source code in hex-based AST format.
+	3.	Intermediate Representation (IR) Files:
+	•	.sphe-bin: Binary intermediate representation file
+Example: main.sphe-bin
+	•	Spherecore’s intermediary code, optimized and used for further compilation into machine code.
+	4.	Executable Files:
+	•	.exe: Compiled Windows executable
+Example: main.exe
+	•	The final output of AOT (Ahead-of-Time) compilation, ready to be executed on Windows.
+	5.	Assembly Files (Optional, for Low-Level Debugging):
+	•	.sphe-asm: Assembly output of Spherecore source code
+Example: main.sphe-asm
+	•	Contains human-readable assembly instructions after compilation, useful for low-level debugging.
+	6.	Debug Files:
+	•	.sphe-dbg: Debug information
+Example: main.sphe-dbg
+	•	Stores metadata for breakpoints, memory mappings, and real-time execution tracing.
+	7.	Configuration Files:
+	•	.sphe-config: Configuration file for compiler settings
+Example: project.sphe-config
+	•	Stores project-specific settings like optimization flags, target architecture, etc.
+
+⸻
+
+These file extensions cover all stages of the Spherecore pipeline, from writing source code to producing optimized executables and debug information.

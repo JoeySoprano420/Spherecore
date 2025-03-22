@@ -121,4 +121,4 @@ The Spherecore compiler compiles source code into a native .exe file, ready for 
 	•	The compiler converts Spherecore code into an optimized executable, leveraging AOT compilation and JIT optimizations to maintain high performance across a wide range of devices.
 	•	Real-time debugging tools make development and debugging easy, allowing for efficient problem-solving during the execution process.
 
-Would you like to expand upon a specific feature or discuss future improvements for the system?
+

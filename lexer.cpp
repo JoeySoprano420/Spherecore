@@ -70,3 +70,29 @@ public:
         return tokens;
     }
 };
+
+enum class TokenType {
+    ALLOCATE_MEMORY, STORE_VALUE, FREE_MEMORY,
+    IDENTIFIER, NUMBER
+};
+
+class Lexer {
+public:
+    std::vector<Token> tokenize() {
+        std::vector<Token> tokens;
+        
+        while (position < source.length()) {
+            std::string identifier;
+            while (std::isalnum(source[position])) {
+                identifier += source[position++];
+            }
+
+            if (identifier == "Allocate_memory") tokens.push_back({TokenType::ALLOCATE_MEMORY, identifier});
+            else if (identifier == "Store_value") tokens.push_back({TokenType::STORE_VALUE, identifier});
+            else if (identifier == "Free_memory") tokens.push_back({TokenType::FREE_MEMORY, identifier});
+            else tokens.push_back({TokenType::IDENTIFIER, identifier});
+        }
+
+        return tokens;
+    }
+};

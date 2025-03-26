@@ -15,7 +15,7 @@ This section outlines which versions of the project are actively supported and w
 
 If you have identified a security vulnerability in Spherecore (https://github.com/JoeySoprano420/Spherecore.git), we strongly encourage you to report it responsibly. Please follow the steps below to ensure the issue is addressed as quickly as possible.
 	1.	How to Report a Vulnerability:
-	•	Please send detailed reports to security@joeysoprano420.com or create a private issue via our GitHub repository.
+	•	Please send detailed reports by creating a private issue via our GitHub repository.
 	•	Include all relevant details, such as the version of Spherecore, the type of vulnerability, steps to reproduce the issue, and any other relevant information.
 	2.	What Happens After Reporting:
 	•	Upon receiving your report, the security team will acknowledge it within 48 hours. A public update will be made when the issue is resolved or declined, depending on the severity and impact of the vulnerability.
